@@ -12,6 +12,7 @@ export default function Gjazz() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={tulus}
               style={{ width: "155px", height: "135px" }}

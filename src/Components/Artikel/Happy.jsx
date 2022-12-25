@@ -12,6 +12,7 @@ export default function Happy() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={happy}
               style={{ width: "155px", height: "135px" }}

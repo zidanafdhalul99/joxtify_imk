@@ -12,6 +12,7 @@ export default function Sad() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={sad}
               style={{ width: "155px", height: "135px" }}

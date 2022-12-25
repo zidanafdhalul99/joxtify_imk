@@ -25,6 +25,7 @@ export default function Artikel() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={blackpink}
               style={{ width: "155px", height: "135px" }}
@@ -32,10 +33,13 @@ export default function Artikel() {
           </div>
           <div className="flex flex-col font-display">
             <div className="text-white text-xl ml-3">Lagu K-pop Terbaik</div>
-            <div className="text-white text-xs ml-3 underline mt-1">Genre : K-pop</div>
+            <div className="text-white text-xs ml-3 underline mt-1">
+              Genre : K-pop
+            </div>
             <Link to="/kpop">
               <div className="w-56 text-white mt-2 text-sm ml-3">
-                Blackpink diakui sebagai The Biggest Girl group in the World. Sehingga tak heran jika....Selengkapnya.....
+                Blackpink diakui sebagai The Biggest Girl group in the World.
+                Sehingga tak heran jika....Selengkapnya.....
               </div>
             </Link>
           </div>
@@ -43,6 +47,7 @@ export default function Artikel() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={yoasobi}
               style={{ width: "155px", height: "135px" }}

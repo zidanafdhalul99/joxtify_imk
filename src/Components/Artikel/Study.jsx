@@ -8,10 +8,13 @@ export default function Study() {
     <>
       <Footer />
       <div className="flex flex-col w-full h-screen">
-        <div className="font-display mt-3 ml-4 text-4xl text-white">Relax Study</div>
+        <div className="font-display mt-3 ml-4 text-4xl text-white">
+          Relax Study
+        </div>
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={relax}
               style={{ width: "155px", height: "135px" }}

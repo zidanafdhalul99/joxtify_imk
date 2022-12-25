@@ -12,6 +12,7 @@ export default function Violin() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={violin}
               style={{ width: "155px", height: "135px" }}

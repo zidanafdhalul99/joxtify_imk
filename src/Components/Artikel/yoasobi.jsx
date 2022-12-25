@@ -27,7 +27,7 @@ export default function Yoasobi() {
             className="text-white no-underline"
             href="https://www.youtube.com/watch?v=ol0BA7uw18Q"
           >
-            Click Here To Listen... <img src={yoasobi1} />
+            Click Here To Listen... <img alt="" src={yoasobi1} />
           </a>
         </div>
       </div>

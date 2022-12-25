@@ -43,6 +43,7 @@ export default function Search() {
                     <div className="flex flex-col  w-48 h-40  font-display bg-yellow-400 rounded-2xl">
                       <div className="text-2xl ml-3 text-white">JAZZ</div>
                       <img
+                        alt=""
                         className="ml-9 mt-1 rounded-xl"
                         src={jazz}
                         style={{
@@ -58,6 +59,7 @@ export default function Search() {
                     <div className="flex flex-col  w-48 h-40  font-display bg-red-500 rounded-2xl">
                       <div className="text-2xl ml-3 text-white">ROCK</div>
                       <img
+                        alt=""
                         className="ml-9 mt-1 rounded-xl"
                         src={rock}
                         style={{
@@ -73,6 +75,7 @@ export default function Search() {
                     <div className="flex flex-col  w-48 h-40  font-display bg-orange-600 rounded-2xl">
                       <div className="text-2xl ml-3 text-white">POP</div>
                       <img
+                        alt=""
                         className="ml-9 mt-1 rounded-xl"
                         src={pop}
                         style={{
@@ -88,6 +91,7 @@ export default function Search() {
                     <div className="flex flex-col  w-48 h-40  font-display bg-pink-500 rounded-2xl">
                       <div className="text-2xl ml-3 text-white">K-POP</div>
                       <img
+                        alt=""
                         className="ml-9 mt-1 rounded-xl"
                         src={kpop}
                         style={{
@@ -103,6 +107,7 @@ export default function Search() {
                     <div className="flex flex-col  w-48 h-40  font-display bg-green-400 rounded-2xl">
                       <div className="text-2xl ml-3 text-white">J-POP</div>
                       <img
+                        alt=""
                         className="ml-9 mt-1 rounded-xl"
                         src={jpop}
                         style={{
@@ -124,6 +129,7 @@ export default function Search() {
                   <div className="flex flex-col  w-48 h-40  font-display bg-blue-400 rounded-2xl">
                     <div className="text-2xl ml-3 text-white">Happy Moment</div>
                     <img
+                      alt=""
                       className="ml-9 mt-1 rounded-xl"
                       src={happy}
                       style={{
@@ -139,6 +145,7 @@ export default function Search() {
                   <div className="flex flex-col  w-48 h-40  font-display bg-blue-400 rounded-2xl">
                     <div className="text-2xl ml-3 text-white">Sad Moment</div>
                     <img
+                      alt=""
                       className="ml-9 mt-1 rounded-xl"
                       src={sad}
                       style={{
@@ -154,6 +161,7 @@ export default function Search() {
                   <div className="flex flex-col  w-48 h-40  font-display bg-blue-400 rounded-2xl">
                     <div className="text-2xl ml-3 text-white"> Relax Study</div>
                     <img
+                      alt=""
                       className="ml-9 mt-1 rounded-xl"
                       src={relax}
                       style={{
@@ -169,6 +177,7 @@ export default function Search() {
                   <div className="flex flex-col  w-48 h-40  font-display bg-blue-400 rounded-2xl">
                     <div className="text-2xl ml-3 text-white">On The Way</div>
                     <img
+                      alt=""
                       className="ml-9 mt-1 rounded-xl"
                       src={perjalanan}
                       style={{
@@ -189,6 +198,7 @@ export default function Search() {
                   <div className="flex flex-col  w-48 h-40  font-display bg-sky-300 rounded-2xl">
                     <div className="text-2xl ml-3 text-white">Gitar</div>
                     <img
+                      alt=""
                       className="ml-9 mt-1 rounded-xl"
                       src={gitar}
                       style={{
@@ -204,6 +214,7 @@ export default function Search() {
                   <div className="flex flex-col  w-48 h-40  font-display bg-sky-300 rounded-2xl">
                     <div className="text-2xl ml-3 text-white">Violin</div>
                     <img
+                      alt=""
                       className="ml-9 mt-1 rounded-xl"
                       src={violin}
                       style={{
@@ -219,6 +230,7 @@ export default function Search() {
                   <div className="flex flex-col  w-48 h-40  font-display bg-sky-300 rounded-2xl">
                     <div className="text-2xl ml-3 text-white">Piano</div>
                     <img
+                      alt=""
                       className="ml-9 mt-1 rounded-xl"
                       src={piano}
                       style={{

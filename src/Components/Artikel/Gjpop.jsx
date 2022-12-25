@@ -12,6 +12,7 @@ export default function Gkpop() {
         <div className="flex mt-10 ">
           <div>
             <img
+            alt=""
               className=""
               src={yoasobi}
               style={{ width: "155px", height: "135px" }}

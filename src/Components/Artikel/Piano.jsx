@@ -12,6 +12,7 @@ export default function Piano() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={piano}
               style={{ width: "155px", height: "135px" }}

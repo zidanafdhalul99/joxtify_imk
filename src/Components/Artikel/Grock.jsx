@@ -13,6 +13,7 @@ export default function Grock() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={queen}
               style={{ width: "155px", height: "135px" }}
@@ -34,6 +35,7 @@ export default function Grock() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={thebeatles}
               style={{ width: "155px", height: "135px" }}
@@ -46,7 +48,8 @@ export default function Grock() {
             </div>
             <Link to="/grock">
               <div className="w-56 text-white mt-2 text-sm ml-3">
-              The Beatles adalah kelompok pemusik Inggris beraliran rock, dibentuk di Liverpool pada tahun 1960.
+                The Beatles adalah kelompok pemusik Inggris beraliran rock,
+                dibentuk di Liverpool pada tahun 1960.
               </div>
             </Link>
           </div>

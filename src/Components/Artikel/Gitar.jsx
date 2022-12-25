@@ -12,6 +12,7 @@ export default function Gitar() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={gitar}
               style={{ width: "155px", height: "135px" }}

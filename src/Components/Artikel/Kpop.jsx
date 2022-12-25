@@ -24,7 +24,7 @@ export default function Kpop() {
             className="text-white no-underline"
             href="https://www.youtube.com/watch?v=UhxW9Njqqu0"
           >
-            Click Here To Listen... <img src={typa}/>
+            Click Here To Listen... <img alt="" src={typa}/>
           </a>
         </div>
         <div className="font-display mt-4 text-white w-full text-justify px-7 flex flex-col gap-1">
@@ -33,7 +33,7 @@ export default function Kpop() {
             className="text-white no-underline"
             href="https://www.youtube.com/watch?v=dISNgvVpWlo"
           >
-            Click Here To Listen.....<img src={whistle}/>
+            Click Here To Listen.....<img alt="" src={whistle}/>
           </a>
         </div>
         <div className="font-display mt-4 mb-16 text-white w-full text-justify px-7  flex flex-col gap-1 ">
@@ -42,7 +42,7 @@ export default function Kpop() {
             className="text-white no-underline"
             href="https://www.youtube.com/watch?v=wQTjv-Xo1gY"
           >
-            Click Here To Listen...<img src={yeah}/>
+            Click Here To Listen...<img alt="" src={yeah}/>
           </a>
         </div>
       </div>

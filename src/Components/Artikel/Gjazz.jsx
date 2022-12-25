@@ -12,6 +12,7 @@ export default function Gjazz() {
         <div className="flex mt-10 ">
           <div>
             <img
+              alt=""
               className=""
               src={sisitipsi}
               style={{ width: "155px", height: "135px" }}
@@ -27,7 +28,7 @@ export default function Gjazz() {
             <Link to="/gjazz">
               <div className="w-56 text-white mt-2 text-sm ml-3">
                 Sisitipsi merupakan grup musik asal Indonesia yang dibentuk pada
-                tahun 2014. 
+                tahun 2014.
               </div>
             </Link>
           </div>

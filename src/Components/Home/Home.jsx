@@ -6,10 +6,9 @@ import thebeatles from "./img/rock/thebeatles.jpg";
 import yoasobi from "./img/jpop/yoasobi.jpg";
 import blackpink from "./img/kpop/blackpink.jpg";
 import jazz from "./img/jazz/jazz.jpg";
-import pop from "./img/pop/pop.jpg";
-import tulus from "./img/tulus.jfif"
-import sisitipsi from "./img/sisitipsi.jfif"
-import yoasobi1 from "./img/yoasobi1.jfif"
+import tulus from "./img/tulus.jfif";
+import sisitipsi from "./img/sisitipsi.jfif";
+import yoasobi1 from "./img/yoasobi1.jfif";
 
 export default function Home() {
   return (
@@ -26,6 +25,7 @@ export default function Home() {
                 <Link to="/Gjazz" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={jazz}
                       style={{ width: "125px", height: "150px" }}
                     />
@@ -37,6 +37,7 @@ export default function Home() {
                 <Link to="/gkpop" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={blackpink}
                       style={{ width: "125px", height: "150px" }}
                     />
@@ -48,6 +49,7 @@ export default function Home() {
                 <Link to="/gjpop" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={yoasobi}
                       style={{ width: "125px", height: "150px" }}
                     />
@@ -68,6 +70,7 @@ export default function Home() {
                 <Link to="/grock" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={queen}
                       style={{ width: "125px", height: "150px" }}
                     />
@@ -79,6 +82,7 @@ export default function Home() {
                 <Link to="/grock" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={thebeatles}
                       style={{ width: "125px", height: "150px" }}
                     />
@@ -90,6 +94,7 @@ export default function Home() {
                 <Link to="/gjpop" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={yoasobi}
                       style={{ width: "125px", height: "150px" }}
                     />
@@ -101,6 +106,7 @@ export default function Home() {
                 <Link to="/gkpop" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={blackpink}
                       style={{ width: "125px", height: "150px" }}
                     />
@@ -113,52 +119,56 @@ export default function Home() {
             </div>
           </div>
           <div className="gap-3 flex flex-col mt-9 mb-40">
-            <div className="font-display text-4xl text-white">Best Of This Year</div>
+            <div className="font-display text-4xl text-white">
+              Best Of This Year
+            </div>
             <div className="flex overflow-x-scroll lg:overflow-x-auto lg:flex">
               <div className="flex-none flex flex-row gap-3 lg:flex-none">
                 <Link to="/gpop" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={tulus}
                       style={{ width: "125px", height: "150px" }}
                     />
                     <div className="font-display text-white text-lg ">
-                    Tulus
+                      Tulus
                     </div>
                     <div className="font-display text-white text-2xl ">
-                    Hati-Hati di Jalan
+                      Hati-Hati di Jalan
                     </div>
                   </div>
                 </Link>
                 <Link to="/gjpop" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={yoasobi1}
                       style={{ width: "125px", height: "150px" }}
                     />
                     <div className="font-display text-white text-lg ">
-                    Yoasobi
+                      Yoasobi
                     </div>
                     <div className="font-display text-white text-2xl ">
-                    Yoru Ni Kakeru
+                      Yoru Ni Kakeru
                     </div>
                   </div>
                 </Link>
                 <Link to="/gjazz" className="no-underline">
                   <div className="flex flex-col">
                     <img
+                      alt=""
                       src={sisitipsi}
                       style={{ width: "125px", height: "150px" }}
                     />
                     <div className="font-display text-white text-lg ">
-                    Sisitipsi
+                      Sisitipsi
                     </div>
                     <div className="font-display text-white text-2xl ">
-                    Masih Kurang
+                      Masih Kurang
                     </div>
                   </div>
                 </Link>
-                
               </div>
             </div>
           </div>
